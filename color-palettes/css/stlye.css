@@ -36,6 +36,9 @@
     text-align: center;
     padding: 24px;
 }
+#pink-dreams {
+    text-align: center;
+}
 #palette-color6 {
     background-color: #EFD9CE;
     color: black;
@@ -63,6 +66,9 @@
     font-family: monospace;
     text-align: center;
     padding: 24px;
+}
+#blue-dreams {
+    text-align: center;
 }
 #palette-color10 {
     background-color: #247BA0;
