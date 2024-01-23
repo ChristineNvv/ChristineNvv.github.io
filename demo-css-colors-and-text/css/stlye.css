@@ -1,0 +1,32 @@
+#first-paragraph {
+    color: darkcyan;
+    background-color: rgb(157, 215, 196);
+    font-style: italic;
+    text-align: right;
+}
+#second-paragraph {
+    color: rgb(99, 9, 99);
+    background-color: rgb(201, 149, 250);
+    font-size: 24px;
+    text-decoration: underline;
+}
+#bold-paragraph {
+    font-weight: bold;
+    background-color: rgb(178, 172, 172);
+}
+
+#span1 {
+    color: rgb(137, 206, 183);
+    font-weight: bold;
+    font-size: 46px;
+}
+#span2 {
+    font-style: italic;
+    text-decoration: underline;
+}
+#span3 {
+    background-color: rgb(137, 206, 183);
+}
+#span4 {
+    color: rgb(67, 64, 228);
+}
