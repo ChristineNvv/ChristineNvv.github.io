@@ -1,0 +1,9 @@
+.narrow {
+    width: 200px;
+    background-color: lightcyan;
+    display: inline-block;
+}
+#picinp {
+    background-image: url('../images/castle-in-the-sky.jpeg');
+    height: 500px;
+}
