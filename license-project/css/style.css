@@ -21,7 +21,6 @@ h1 {
 h4 {
     color: white;
     background-color: blue;
-    width: 250px;
     height: 30px;
     text-align: center;
 }
@@ -30,7 +29,7 @@ h4 {
     display: inline-block;
 }
 #left-side {
-    width: 500px;
+    width: 65%;
     text-align: left;
 }
 #id-and-expiration div {
