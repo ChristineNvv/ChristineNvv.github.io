@@ -54,3 +54,7 @@ body {
 img {
     width: 300px;
 }
+#sticky-sidebar {
+    position: sticky;
+    top: 24px;
+}
