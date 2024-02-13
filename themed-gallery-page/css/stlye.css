@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #646F58;
+}
+#layout h3 {
+    background-color: #AFBE8F;
+    padding: 15px;
+}
+#layout p {
+    background-color: #DDE392;
+    border: 2px solid #bcc17a;
+    border-radius: 20px;
+    opacity: 60%;
+    margin: 20px;
+    text-align: left;
+    color: #b5c78d;
+}
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+.my-animal-gallery {
+    columns: 3 auto;
+}
+    
+.my-animal-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+#hero {
+    background-image: url(../images/nikola-majksner-hXNGeAFOgT4-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    position: relative;
+}
+#hero .hero-stuff {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+#hero h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: #afc795;
+}
+#hero h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: #afc795;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+#hero h2 span {
+    color: #646F58;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+    
