@@ -1,1 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: merienda;
+}
+#menu {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(
+        to bottom, 
+        #A663CC,
+        #441151
+    );
+}
+#dropdown-container a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 24px;
+}
+#logo {
+    margin-right: auto;
+    font-weight: bold;
+}
+#dropdown-container {
+    position: relative;
+}
+#dropdown a {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 
+    visibility 0.25s,
+    opacity 0.25s;
+}
+#dropdown a {
+    background-color: #A663CC;
+    width: 100%;
+    min-width: 200px;
+}
+#dropdown-container:hover #dropdown a {
+    visibility: visible;
+    opacity: 1;
+}
+#hero {
+    background-image: url("../images/hero-for-adoptme.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
