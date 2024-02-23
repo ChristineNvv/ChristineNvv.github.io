@@ -6,6 +6,7 @@
 body {
     margin: 0px;
     font-family: merienda;
+    background-image: url(../images/adoptvampirepet-background.jpeg);
 }
 #menu {
     display: flex;
@@ -50,10 +51,11 @@ body {
     background-image: url("../images/hero-for-adoptme.jpeg");
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    color: white;
 }
 
