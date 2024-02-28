@@ -28,62 +28,22 @@ body {
 }
 #button1:hover {
     border: 3px solid gray;
-
 }
 #button1:active {
     background-color: gray;
-    text-decoration: none;
     
 }
 #button1 a:active {
     color: pink;
 }
-#hero {
-    background-image: url(../images/maybe-hero.webp);
-    background-size: cover;
-    background-position: center center;
-    height: 60vh;
-    position: relative;
-    color: pink;
-    text-align: center;
+#menu img {
+    width: 60%;
 }
-#hero-content {
-    position: absolute;
-    top: 10%;
-    left: 15%;
-}
-#hero h2 {
-    font-size: 8vw;
-    margin-bottom: 5vh;
-    margin-right: 5vw;
-}
-#hero h3 {
-    font-size: 3vw;
-    margin: 0px 5vw 0px 0px;
-}
-#button1-2 a {
-    display: inline-block;
-    background-color: #F2F9E4;
-    color: gray;
-    text-decoration: none;
-    padding: 15px;
-    font-size:1.5vw;
-    margin: 5vh 5vw 10vw 0px;
-    border: 2px solid gray;
-    border-radius: 30px;
-}
-#button1-2 a:hover {
-    border: 3px solid gray;
-}
-#button1-2 a:active {
-    color: pink;
-    background-color: gray;
-}
-.content {
+#menu {
+    border: 2px solid pink;
+    margin: 35px;
     background-color: #99c97f;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 15px;
+    text-align: center;
 }
 #footer {
     background-color: #99c97f;
@@ -102,8 +62,6 @@ body {
     padding: 50px;
     text-align: top left;
 }
-
-
 @media screen and (max-width: 480px) {
     #navbar {
        flex-direction: column;
@@ -116,5 +74,3 @@ body {
         height: 30vh;
     }
 }
-
-
