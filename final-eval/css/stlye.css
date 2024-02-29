@@ -9,7 +9,15 @@ body {
     color: rgb(56, 56, 56);
 
 }
-
+#all h3 {
+    font-size: 20px;
+}
+#all h1 {
+    font-size: 50px;
+}
+#all h2 {
+    font-size: 35px;
+}
 
 .single-column {
     text-align: center;
@@ -46,5 +54,16 @@ body {
 }
 .single-column h4 {
     padding: 50px;
+}
+@media screen and (max-width: 480px) {
+    #all h3 {
+        font-size: 15px;
+    }
+    #all h1 {
+        font-size: 30px;
+    }
+    #all h2 {
+        font-size: 25px;
+    }
 }
 
