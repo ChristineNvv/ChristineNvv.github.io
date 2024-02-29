@@ -5,10 +5,11 @@
 body {
     margin: 0px;
     font-family: Open+Sans;
-    background-color: darkgrey;
+    background: linear-gradient(rgb(96, 95, 95), rgb(159, 159, 159),gray);
     color: rgb(56, 56, 56);
 
 }
+
 
 .single-column {
     text-align: center;
